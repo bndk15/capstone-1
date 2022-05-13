@@ -7,15 +7,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 	<!-- CSS Link -->
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="index.css">`
 	<title>Capstone 1</title>
 </head>
 <body>
 
 <!-- Navbar Section Start -->
-<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Home</a>
+    <a class="navbar-brand" href="#">Benedick Dela Cruz</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -35,64 +35,148 @@
   </div>
 </nav>
 
-<!-- Navbar Section End -->
+<!-- end of nav -->
 
-<!-- Profile Section Start -->
-	<div class="container-fluid bg-dark text-warning min-vh-100 p-3 p-md-5">
-		<img class="profpic" src="./images/lonely.jpg" width="100">
-		<h1 id=name class="mt-5">Benedick Dela Cruz</h1>
-		<h3>The Honor is Ours!</h3>
+<!-- Landing Page  -->
+<div class="landing">
+<div class="container-fluid text-center">
+  <div class="container-fluid bg-primary text-light min-vh-100 p-3 p-md-5">
+  	<img class="mt-5 mt- md-0 rounded-circle img-fluid" src="../images/lonely.jpg" width="250">
+  	<h1>Benedick Dela Cruz</h1>
+  	<h3>Full Stack Developer</h3>
 
-		<div class="row mt-5 mb min-vh-100">
-			<div class="offset-md-2 col-md-8">
-				<p>
-					Crypto enthusiast, Business Development Manager, College Instructor, Aspiring Software Developer, Mountaineer, Martial Arts Student 
-				</p>
-			</div>
+  	<div class="row mt-5">
+  		<div class="offset-md-2 col-md-8">
+  			<p>
+  				Don't Fall in Winter when Summer Just Springs in.
+  			</p>
+  		</div>
+
+  	</div>
+</div>
+<!-- end of Landing page -->
+ 
+<!-- About me -->
+<div class="about.me">
+<div class="container-fluid text-center">
+	<div class="row">
+  <div class="container-fluid bg-light text-dark min-vh-100 p-3 p-md-5">
+  	
+  	<h1>About Me</h1>
+  	<h3>Welcome to my Page</h3>
+
+  	<div class="row mt-5">
+  		<div class="offset-md-2 col-md-8">
+  			<p>
+  				I am aspiring to be a Full-stack developer that will contribute in the growth of the country's IT economy. To foster a greater appreciation and application of current trends in technology, finance, and transparency
+  			</p>
+  		</div>
+
+  	<div class=" know mt-5 mb-5"> Know more about my professional work</div>
+  	<div>
+  		
+
+  	</div>
+  	<div class="d-grid gap-2 col-6 mx-auto">
+  		<button type="button" class="btn btn-primary btn-lg">Resume</button>
+  		<a href="../images/BDC_Resume.doc"></a>
+  	</div>
+ </div>
+</div>
+</div>
+<!-- Cards -->
+	<div class=" bg-dark text-light min-vh-100 p-5">
+
+		<h2>Projects</h2>
+
+		<!-- Other project Container Start -->
+
+	<div class="d-lg-flex justify-content-center p-md-5">
+
+	<!-- Blockchain Card Start -->
+        <div class="card bg-primary col-xl-4 mb-5 mb-xl-0">
+          <img src="../images/bitcoin.jpg" class="card-img-top" alt="BTC image">
+          <div class="card-body">
+            <h5 class="card-title"> Blockchain Technology</h5>
+           
+            <p class="card-text">Participates and provided lectures about blockchain technology and crytocurrencies. Play-to-earn mentor for a Filipino investment group and a regular speaker on TAP Overview, discussing the role of Play-to-earn eco-system in the crypto markets.</p>
+            
+          </div>
+        </div>	
+<!-- Blockchain Card End -->
+<!-- Financial Freedom Card Start -->
+        <div class="card bg-primary col-xl-4 mb-5 mb-xl-0 me-xl-5 ms-xl-5">
+          <img src="../images/bundok2.jpg" class="card-img-top" alt="mountain image">
+          <div class="card-body">
+            <h5 class="card-title"> Financial Freedom</h5>
+            <p class="card-text">Provide adequate information about the different markets and asses the different invetment tools according to someone's risk appettite.</p>
+            
+          </div>
+        </div>
+<!-- Financial Card end -->
+<!-- Software  Card start-->
+        <div class="card bg-primary col-xl-4 mb-5 mb-xl-0 me-xl-5 ms-xl-5">
+          <img src="../images/war.jpg" class="card-img-top" alt="bootstrap image">
+          <div class="card-body">
+            <h5 class="card-title"> Software Development</h5>
+            <p class="card-text">Provide solutions on different IT-related projects, specializing in the stream-lining of the company's processes. Offers relevant technologically advanced systems with user-friendly management. </p>
+            
+          </div>
+        </div>
+
+<!-- Software Card end -->
+   </div>
+
+	</div>
+
+
+
+<div class="bg-light min-vh-100 p-5">
+		<h2 class="text-light"> Contact Me</h2>
+
+		<div class="row mt-3"> 
+			<form class="col-12 offset-sm-3 offset-md-3 offset-xl-3 col-md-8 col-xl-4 bg-secondary p-3 w-50">
+			  <div class="mb-3">
+			    <label for="name" class="form-label text text-light">Name</label>
+			    <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+			    
+			  </div>
+			  <div class="mb-3">
+			    <label for="email" class="form-label text-light">Email Address</label>
+			    <input type="email" class="form-control" id="email" placeholder="name@example">
+			  </div>
+			  <div class="mb-3">
+			    <label for="contact_number" class="form-label text-light">Contact Number</label>
+			    <input type="text" class="form-control" id="contact_number" placeholder="+63 900 0000">
+			  </div>
+			  <div class="mb-3">
+			  	<label class="text-light form-label">Concern</label>
+			  	<select class="form-select" id="concern">
+			  		<option>Quotation</option>
+			  		<option>Appointment</option>
+			  		<option>Follow Up</option>
+			  	</select>
+			  </div>
+			  <div class="mb-3">
+			  	<label class="text-light" for="message">Message Me</label>
+			  	<textarea class="form-control" id="message"></textarea>
+			  	
+			  </div>
+			  <button type="submit" class="btn btn-dark">Send Email</button>
+			</form>
+		</div>
+		
+	</div>
+		
+			
+		</div>
+		
+	</div>
 	
-			<div class="d-lg-flex justify-content-center p-md-5">
-
-				<!-- QRT Card Start -->
-		                <div class="card bg-dark col-xl-4 mb-5 mb-xl-0" style="width: 18rem;">
-		                  <img src="./images/QRT.jpg" class="card-img-top" alt="QRT image">
-		                  <div class="card-body">
-		                    <h5 class="card-title"> Crypto Enthusiast</h5>
-		                    <h6 class="card-subtitle text-muted mb-2">Colaborator</h6>
-		                    <p class="card-text">I am a partner of the QRT project that was launched in 2020. I am also a resource speaker for crypto related topics such as Play-to-earn, Lowcap gems, Proof-of-work and Proof-of Stake Difference. I also invest in different crypto-related projects</p>
-		                    <a href="#" class="btn btn-warning">Link To Project</a>
-		                  </div>
-		                </div>	
-				<!-- QRT Card End -->
-				<!-- Educator Card Start -->
-		                <div class="card bg-dark col-xl-4 mb-5 mb-xl-0 me-xl-5 ms-xl-5" style="width: 18rem;">
-		                  <img src="./images/guyfawkes.jpg" class="card-img-top" alt="profie pic server image">
-		                  <div class="card-body">
-		                    <h5 class="card-title"> College Instructor</h5>
-		                    <h6 class="card-subtitle text-muted mb-2">Educator</h6>
-		                    <p class="card-text"> I was a college instructor for several years, teaching topics ranging from Philosophy, Sociology and Family planning, History, Power Relations, Art of War, and Economics. I am also interested in Martial Arts</p>
-		                    <a href="#" class="btn btn-secondary">Link To Project</a>
-		                  </div>
-		                </div>
-				<!-- Educator Card end -->
-				<!-- Node Js Card -->
-		                <div class="card bg-dark col-xl-4 mb-5 mb-xl-0 me-xl-5 ms-xl-5" style="width: 18rem;">
-		                  <img src="./images/nodejs.png" class="card-img-top" alt="bootstrap image">
-		                  <div class="card-body">
-		                    <h5 class="card-title"> Node JS</h5>
-		                    <h6 class="card-subtitle text-muted mb-2">Rapid Prototyping</h6>
-		                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
-		                    <a href="#" class="btn btn-secondary">Link To Project</a>
-		                  </div>
-		                </div>
-		           </div>
-	
+</div>
 
 </div>
+
 
 <!-- Bootstrap Script-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
