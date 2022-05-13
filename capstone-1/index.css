@@ -9,7 +9,9 @@ box-sizing: border-box;
 body{
 	font-family: Open Sans, sans-serif;} 
 
-img {
-	width: cover;
-}
 
+img {
+	background-size: cover;
+}
+	
+}
